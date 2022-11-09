@@ -3,7 +3,7 @@ import React from "react";
 // This is section 2
 const PatientsOpinion = () => {
   return (
-    <div className="my-12 p-12 bg-pink-200 shadow-2xl rounded-3xl">
+    <div className="my-12 p-12 bg-orange-200 shadow-2xl rounded-3xl">
       <h2 className="text-5xl">What Our Patients Say!</h2>
       <div className="carousel w-full">
         <div

@@ -7,7 +7,7 @@ const GetFreeTips = () => {
     <div data-theme="acid" className="my-12">
       <div className="card lg:card-side bg-base-100 shadow-xl">
         <div className="card-body">
-          <h2 className="card-title">Get a free treatment!</h2>
+          <h2 className="card-title text-3xl">Get a free treatment!</h2>
           <h2>
             Mail us your problem. We will get in touch with you as soon as
             possible!
