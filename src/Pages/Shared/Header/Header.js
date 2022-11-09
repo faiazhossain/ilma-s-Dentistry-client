@@ -1,24 +1,27 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 import logo from "../../../images/logo.png";
+import { FaUser } from "react-icons/fa";
 
 const Header = () => {
+  const { user, logOut } = useContext(AuthContext);
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => console.error(error));
+  };
   const menuItems = (
     <>
       <li>
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/login">Login</Link>
-      </li>
-      <li>
-        <Link to="/register">Register</Link>
-      </li>
-      <li>
         <Link to="/blog">Blog</Link>
       </li>
     </>
   );
+
   return (
     <div className="navbar bg-pink-700 text-white">
       <div className="navbar-start">
@@ -57,9 +60,50 @@ const Header = () => {
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
       <div className="navbar-end">
-        <a href="/" className="btn">
-          Get started
-        </a>
+        <div>
+          <p className="mr-4 p-2 rounded-xl ">
+            {user?.uid ? (
+              <div
+                className="tooltip tooltip-left tooltip-secondary flex flex-col sm:flex-row gap-4"
+                data-tip={user?.displayName}
+              >
+                <span className="inline">
+                  {user?.photoURL ? (
+                    <img
+                      className="w-10 rounded-full"
+                      alt=""
+                      src={user.photoURL}
+                    ></img>
+                  ) : (
+                    <FaUser></FaUser>
+                  )}
+                </span>
+                <Link
+                  to=""
+                  onClick={handleLogOut}
+                  className="btn btn-outline btn-info btn-xs sm:btn-sm md:btn-md lg:btn-md"
+                >
+                  Log out
+                </Link>
+              </div>
+            ) : (
+              <>
+                <Link
+                  to="/login"
+                  className="btn btn-outline btn-info btn-xs sm:btn-sm md:btn-md lg:btn-md"
+                >
+                  Login
+                </Link>
+                <Link
+                  to="/register"
+                  className="btn btn-outline btn-info btn-xs sm:btn-sm md:btn-md lg:btn-md ml-4"
+                >
+                  Register
+                </Link>
+              </>
+            )}
+          </p>
+        </div>
       </div>
     </div>
   );
