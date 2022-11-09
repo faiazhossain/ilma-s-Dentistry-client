@@ -6,7 +6,7 @@ const Register = () => {
     event.preventDefault();
   };
   return (
-    <div data-theme="dracula" className="hero min-h-screen ">
+    <div data-theme="valentine" className="hero min-h-screen ">
       <div className="hero-content flex-col ">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Register now!</h1>
