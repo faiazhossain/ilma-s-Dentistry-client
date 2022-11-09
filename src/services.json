@@ -1,152 +1,44 @@
 [
   {
     "service_id": "01",
-    "title": "Engine Oil Change",
-    "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+    "title": "Scaling",
+    "img": "https://d3b3by4navws1f.cloudfront.net/Scaling_and_Planing.jpg",
     "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "description": "Scaling is a common dental procedure for patients with gum disease. This is a type of dental cleaning that reaches below the gumline to remove plaque buildup. The process of scaling and root planing the teeth is often referred to as a deep cleaning. This treatment goes beyond the general cleaning that you receive with your regular checkup and annual visit.Everyone experiences some form of plaque buildup. The saliva, bacteria, and proteins in your mouth form a thin layer that covers your teeth at almost all times. When you eat, tiny particles, acids, and sugars from the food stick to this film, creating a buildup on the teeth known as plaque. The bacteria that lives in this plaque can cause gum disease and tooth decay. Brushing, flossing, and regular dental cleanings will help remove the plaque and prevent more serious problems.If you have healthy gums, the tissue will fit tightly around the tooth and keep plaque out. However, if gum disease begins to form, this tissue will loosen. Healthy gums attach to the tooth just 1 to 3 millimeters below the gumline. With gum disease, you'll begin to develop deeper pockets. These can fill with plaque, worsening your problems and causing symptoms like bad breath."
   },
   {
     "service_id": "02",
-    "title": "Battery Charge",
-    "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-    "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "title": "Root cannel",
+    "img": "https://img.favpng.com/4/4/11/endodontic-therapy-root-canal-endodontics-dentistry-png-favpng-z7w3ddXLVAGShtqPqRhQaDHNQ.jpg",
+    "price": "50.00",
+    "description": "Root canal treatment is designed to eliminate bacteria from the infected root canal, prevent reinfection of the tooth and save the natural tooth. When one undergoes a root canal, the inflamed or infected pulp is removed and the inside of the tooth is carefully cleaned and disinfected, then filled and sealed. Inside your tooth, beneath the white enamel and a hard layer called dentin, is a soft tissue called pulp. This tissue contains blood vessels, nerves and connective tissue, which help grow the root of your tooth during its development. A fully developed tooth can survive without the pulp because the tooth continues to be nourished by the tissues surrounding it."
   },
   {
     "service_id": "03",
-    "title": "Full car Repair",
-    "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-    "price": "200.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "title": "Tooth extraction",
+    "img": "https://img.freepik.com/free-vector/tooth-removal-cartoon-illustration_74855-17131.jpg?w=2000",
+    "price": "25.00",
+    "description": "A tooth extraction is the permanent removal of a tooth from its socket and may be done manually using forceps or surgically. Extraction is recommended when the tooth cannot be saved with other treatments such as root canal treatment and to prevent infection from spreading to other areas of your mouth. It may also be performed to extract extra teeth. Your dentist may recommend pulling a tooth if there is severe tooth decay that affects the underlying nerve, an infected tooth that does not respond to antibiotics or root canal therapy, improperly positioned or overcrowding of teeth, tooth trauma causing irreparable damage, problematic wisdom teeth, and if gum disease is present and causing loss of bone and tissue supporting the tooth."
   },
   {
     "service_id": "04",
-    "title": "Engine Repair",
-    "img": "https://i.ibb.co/5MvmD2g/88.jpg",
-    "price": "150.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "title": "Pulpectomy",
+    "img": "https://www.verywellhealth.com/thmb/U0Ohgp3ICYQwjYKp3Tkp9vZCs-M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pulpotomy-procedure-4588447-v2-6a08c9ab2dc14db9abe5fb4fdaa95822.png",
+    "price": "35.00",
+    "description": "A pulpectomy is complete removal of pulp from the crown and roots. The tooth is then filled with material that can be reabsorbed by the body. It's usually performed on baby teeth.A root canal starts with a pulpectomy, but the tooth gets a permanent filling or crown. It's usually performed on permanent teeth.Pulpectomy can be performed in one visit with these basic stepsX-rays are taken to look for signs of infection in surrounding areas and to get a look at the shape of the root canals.A root canal usually requires more than one visit to the dental office. Once the pulp is removed, as in a pulpectomy, the entire root canal system is cleaned, shaped, and filled and sealed. You'll likely be sent home with a temporary crown, and then asked to return for permanent filling and a permanent crown."
   },
   {
     "service_id": "05",
-    "title": "Automatic Services",
-    "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+    "title": "Gingivectomy",
+    "img": "https://pbs.twimg.com/media/E-OLs9qXEAUYznu.jpg",
     "price": "30.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "description": "GINGIVECTOMY is the surgical removal of gingiva (i.e., gum tissue). A gingivectomy is necessary when the gums have pulled away from the teeth creating deep pockets. The pockets make it hard to clean away plaque and calculus. Gingivectomy is usually done before gum disease has damaged the bone supporting the teeth. The procedure involves removing and reshaping loose, diseased gum tissue to get rid of pockets between the teeth and gums. By removing the pocket walls, gingivectomy provides visibility and accessibility to remove calculus and thoroughly smooth the tooth roots. This creates a favorable environment for gingival healing and restoration of the gingival contour. Although gingivectomy was initially developed to treat periodontal disease, it is now a common Cosmetic Surgery , also. It is used to remove overgrown gum tissue and improve the appearance of the gums."
   },
   {
     "service_id": "06",
-    "title": "Electrical System",
-    "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
+    "title": "Tooth Filling",
+    "img": "https://img.freepik.com/premium-vector/dental-filling-broken-tooth-stomatology-concept-cute-cartoon-teeth-isolated-illustration_124848-473.jpg?w=2000",
     "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "description": "Dental fillings are single or combinations of metals, plastics, glass or other materials used to repair or restore teeth. One of the most popular uses of fillings is to “fill” an area of tooth that your dentist has removed due to decay - “a cavity.” Fillings are also used to repair cracked or broken teeth and teeth that have been worn down from misuse (such as from nail-biting or tooth grinding). Dental filling materials include:Gold.Porcelain.Silver amalgam (contains mercury mixed with silver, tin, zinc, and copper).Tooth-colored, plastic and glass materials called composite resin fillings.The location and extent of the decay, cost of filling material, your insurance coverage and your dentist's recommendation help determine the type of filling that will best address your needs."
   }
 ]
