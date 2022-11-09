@@ -1,62 +1,7 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// const Login = () => {
-//   const handleLogin = (event) => {
-//     event.preventDefault();
-//   };
-//   return (
-//     <div data-theme="cupcake" className="hero min-h-screen mx-auto bg-base-200">
-//       <div className="hero-content flex-col lg:flex-row-reverse">
-//         <div className="text-center md:w-1/3 lg:text-left">
-//           <h1 className="text-5xl font-bold">Login now!</h1>
-//           <p className="py-6">
-//             Login to get more access and get the services you want.
-//           </p>
-//         </div>
-//         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-//           <form onSubmit={handleLogin} className="w-96 card-body">
-//             <div className="form-control">
-//               <label className="label">
-//                 <span className="label-text">Email</span>
-//               </label>
-//               <input
-//                 type="text"
-//                 placeholder="email"
-//                 className="input input-bordered"
-//               />
-//             </div>
-//             <div className="form-control">
-//               <label className="label">
-//                 <span className="label-text">Password</span>
-//               </label>
-//               <input
-//                 type="text"
-//                 placeholder="password"
-//                 className="input input-bordered"
-//               />
-//               <label className="label">
-//                 <Link to="/register" className="label-text-alt link link-hover">
-//                   New to this website? Register!
-//                 </Link>
-//               </label>
-//             </div>
-//             <div className="form-control mt-6">
-//               <input className="btn btn-primary" type="submit" value="login" />
-//             </div>
-//           </form>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Login;
-
 import { GithubAuthProvider, GoogleAuthProvider } from "firebase/auth";
 import React, { useContext } from "react";
 
-import { FaGoogle, FaGithub } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
@@ -106,12 +51,12 @@ const Login = () => {
 
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
+      <div data-theme="dracula" className="hero min-h-screen">
         <div className="hero-content flex-col ">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Login now!</h1>
           </div>
-          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl">
             <form onSubmit={handleSubmit} className="card-body">
               <div className="form-control">
                 <label className="label">
@@ -146,7 +91,7 @@ const Login = () => {
                   Register
                 </Link>
               </Link>
-              <p className="text-red-500">{error}</p>
+              <p className="text-pink-500">{error}</p>
             </form>
             <button
               onClick={handleGoogleSignIn}

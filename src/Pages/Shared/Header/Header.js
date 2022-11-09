@@ -19,6 +19,23 @@ const Header = () => {
       <li>
         <Link to="/blog">Blog</Link>
       </li>
+      {user?.uid ? (
+        <div
+          className="tooltip tooltip-left tooltip-secondary flex flex-col sm:flex-row gap-4"
+          data-tip={user?.displayName}
+        >
+          <ul className="lg:flex justify-center items-center ">
+            <li>
+              <Link to="/">My Reviews</Link>
+            </li>
+            <li>
+              <Link to="/blog">Add Service</Link>
+            </li>
+          </ul>
+        </div>
+      ) : (
+        <></>
+      )}
     </>
   );
 
@@ -67,6 +84,14 @@ const Header = () => {
                 className="tooltip tooltip-left tooltip-secondary flex flex-col sm:flex-row gap-4"
                 data-tip={user?.displayName}
               >
+                {/* <ul className="flex justify-center items-center ">
+                  <li>
+                    <Link to="/">My Reviews</Link>
+                  </li>
+                  <li className="ml-4">
+                    <Link to="/blog">Add Service</Link>
+                  </li>
+                </ul> */}
                 <span className="inline">
                   {user?.photoURL ? (
                     <img
@@ -90,13 +115,13 @@ const Header = () => {
               <>
                 <Link
                   to="/login"
-                  className="btn btn-outline btn-info btn-xs sm:btn-sm md:btn-md lg:btn-md"
+                  className="btn btn-outline btn-accent btn-xs sm:btn-sm md:btn-md lg:btn-md"
                 >
                   Login
                 </Link>
                 <Link
                   to="/register"
-                  className="btn btn-outline btn-info btn-xs sm:btn-sm md:btn-md lg:btn-md ml-4"
+                  className="btn btn-outline btn-accent btn-xs sm:btn-sm md:btn-md lg:btn-md ml-4"
                 >
                   Register
                 </Link>
