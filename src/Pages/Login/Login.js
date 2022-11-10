@@ -23,7 +23,6 @@ const Login = () => {
     providerLogin(googleProvider)
       .then((result) => {
         const user = result.user;
-        console.log(user);
         navigate(from, { replace: true });
       })
       .catch((error) => console.error(error));
@@ -39,7 +38,6 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         const user = result.user;
-        console.log(user);
         form.reset();
         setError("");
         navigate(from, { replace: true });

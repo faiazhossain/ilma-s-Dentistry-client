@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 import useTitle from "../../../hooks/useTitle";
@@ -6,6 +6,7 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Reviews from "../../Reviews/Reviews";
 
 const SingleService = () => {
   useTitle("Review");
@@ -24,7 +25,7 @@ const SingleService = () => {
 
   const { user } = useContext(AuthContext);
   const { _id, img, price, description, title } = useLoaderData();
-  console.log(user);
+
   // review adding function
   const handleReview = (event) => {
     event.preventDefault();
@@ -93,7 +94,7 @@ const SingleService = () => {
           </div>
         </div>
       </div>
-
+      <Reviews></Reviews>
       <div className="w-full my-8 bg-pink-300 p-8">
         {user?.uid ? (
           <form
