@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {
@@ -9,7 +10,7 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div data-theme="light" className="p-4">
+    <div data-theme="light" className="p-4 flex flex-col items-center">
       <h2 className="text-center text-3xl font-mono font-semibold text-pink-500 my-3">
         Our Services
       </h2>
@@ -18,6 +19,9 @@ const Services = () => {
           <ServiceCard key={service._id} service={service}></ServiceCard>
         ))}
       </div>
+      <Link to="/allServices">
+        <button className="btn btn-secondary mt-8">See All Services</button>
+      </Link>
     </div>
   );
 };
