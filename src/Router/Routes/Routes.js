@@ -1,4 +1,5 @@
 import Main from "../../Layout/Main";
+import AddService from "../../Pages/AddService/AddService";
 import Blog from "../../Pages/Blog/Blog";
 import AllServices from "../../Pages/Home/AllServices/AllServices";
 import Home from "../../Pages/Home/Home/Home";
@@ -8,6 +9,8 @@ import Login from "../../Pages/Login/Login";
 import MyReview from "../../Pages/MyReview/MyReview";
 import Register from "../../Pages/Register/Register";
 import Reviews from "../../Pages/Reviews/Reviews";
+import UpdateUser from "../../Pages/UpdateUser/UpdateUser";
+import PrivateRoute from "./PrivateRoute";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -40,17 +43,41 @@ const router = createBrowserRouter([
         path: "/allServices/:id",
         element: <SingleService></SingleService>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/allServices/${params.id}`),
+          fetch(
+            `https://ilmas-dentistry-server.vercel.app/allServices/${params.id}`
+          ),
       },
       {
         path: "/reviews",
         element: <Reviews></Reviews>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/allServices/${params.id}`),
+          fetch(
+            `https://ilmas-dentistry-server.vercel.app/allServices/${params.id}`
+          ),
       },
       {
         path: "/myreviews",
-        element: <MyReview></MyReview>,
+        element: (
+          <PrivateRoute>
+            <MyReview></MyReview>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/addservice",
+        element: (
+          <PrivateRoute>
+            <AddService></AddService>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/updateuser/:id",
+        element: <UpdateUser></UpdateUser>,
+        loader: ({ params }) =>
+          fetch(
+            `https://ilmas-dentistry-server.vercel.app/reviews/${params.id}`
+          ),
       },
     ],
   },

@@ -1,6 +1,6 @@
 # Ilma's Dentistry
 
-Live website link [Ilma's Dentistry](https://graphic-master-148cd.web.app/).
+Live website link [Ilma's Dentistry](https://ilmas-dentistry.web.app/).
 
 ## Description
 

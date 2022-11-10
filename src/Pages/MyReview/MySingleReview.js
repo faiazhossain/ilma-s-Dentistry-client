@@ -1,7 +1,7 @@
 import React from "react";
 
 const MySingleReview = ({ review }) => {
-  const { userName, reviews, userImg, userEmail } = review;
+  const { serviceName, userName, reviews, userImg, userEmail } = review;
 
   return (
     <tr>
@@ -24,7 +24,7 @@ const MySingleReview = ({ review }) => {
         <button className="btn btn-ghost btn-xs"> {reviews}</button>
       </th>
       <th>
-        <button className="btn btn-primary btn-xs"> Delete</button>
+        <button className="btn btn-ghost btn-xs"> {serviceName}</button>
       </th>
     </tr>
   );

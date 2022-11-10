@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
 
-const SingleReview = ({ review, handleDelete }) => {
+const SingleReview = ({ review, handleDelete, handleEdit }) => {
   console.log("service id");
   console.log(review);
   const { _id, userName, reviews, userImg, userEmail } = review;
+  const { user } = useContext(AuthContext);
 
   return (
     <tr>
@@ -26,6 +29,14 @@ const SingleReview = ({ review, handleDelete }) => {
         <button className="btn btn-ghost btn-xs"> {reviews}</button>
       </th>
       <th>
+        <Link to={`/updateuser/${_id}`}>
+          <button
+            onClick={() => handleEdit(_id)}
+            className="btn btn-secondary btn-xs"
+          >
+            Edit
+          </button>
+        </Link>
         <button
           onClick={() => handleDelete(_id)}
           className="btn btn-primary btn-xs"

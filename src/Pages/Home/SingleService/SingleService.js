@@ -14,7 +14,7 @@ const SingleService = () => {
   const notify = () =>
     toast.success("Review Added! 🎉", {
       position: "top-center",
-      autoClose: 5000,
+      autoClose: 1500,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -42,7 +42,7 @@ const SingleService = () => {
       userId: user.uid,
     };
 
-    fetch("http://localhost:5000/reviews", {
+    fetch("https://ilmas-dentistry-server.vercel.app/reviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -54,11 +54,12 @@ const SingleService = () => {
         console.log(data);
         if (data.acknowledged) {
           notify();
+
           form.reset();
         }
       })
       .catch((er) => console.error(er));
-    fetch("http://localhost:5000/myreviews", {
+    fetch("https://ilmas-dentistry-server.vercel.app/myreviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -73,6 +74,11 @@ const SingleService = () => {
         }
       })
       .catch((er) => console.error(er));
+
+    var delayInMilliseconds = 1500; //1 second
+    setTimeout(function () {
+      window.location.reload(false);
+    }, delayInMilliseconds);
   };
 
   return (
@@ -104,9 +110,7 @@ const SingleService = () => {
             <p className="text-3xl text-primary font-mono font-bold">
               $ {price}
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Listen</button>
-            </div>
+            <div className="card-actions justify-end"></div>
           </div>
         </div>
       </div>
