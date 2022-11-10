@@ -1,9 +1,7 @@
 import React from "react";
 
-const SingleReview = ({ review, handleDelete }) => {
-  console.log("service id");
-  console.log(review);
-  const { _id, userName, reviews, userImg, userEmail } = review;
+const MySingleReview = ({ review }) => {
+  const { userName, reviews, userImg, userEmail } = review;
 
   return (
     <tr>
@@ -26,15 +24,10 @@ const SingleReview = ({ review, handleDelete }) => {
         <button className="btn btn-ghost btn-xs"> {reviews}</button>
       </th>
       <th>
-        <button
-          onClick={() => handleDelete(_id)}
-          className="btn btn-primary btn-xs"
-        >
-          Delete
-        </button>
+        <button className="btn btn-primary btn-xs"> Delete</button>
       </th>
     </tr>
   );
 };
 
-export default SingleReview;
+export default MySingleReview;

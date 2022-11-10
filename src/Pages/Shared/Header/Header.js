@@ -29,7 +29,7 @@ const Header = () => {
         >
           <ul className="lg:flex justify-center items-center ">
             <li>
-              <Link to="/">My Reviews</Link>
+              <Link to="/myreviews">My Reviews</Link>
             </li>
             <li>
               <Link to="/blog">Add Service</Link>
