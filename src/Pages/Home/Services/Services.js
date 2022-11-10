@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useTitle from "../../../hooks/useTitle";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {
@@ -9,6 +10,7 @@ const Services = () => {
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
+
   return (
     <div data-theme="light" className="p-4 flex flex-col items-center">
       <h2 className="text-center text-3xl font-mono font-semibold text-pink-500 my-3">

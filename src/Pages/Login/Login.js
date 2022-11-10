@@ -1,4 +1,4 @@
-import { GithubAuthProvider, GoogleAuthProvider } from "firebase/auth";
+import { GoogleAuthProvider } from "firebase/auth";
 import React, { useContext } from "react";
 
 import { FaGoogle } from "react-icons/fa";
